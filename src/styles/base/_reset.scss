@@ -1,0 +1,31 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+$open-sans: 'Open Sans', sans-serif;
+$roboto : 'Roboto', sans-serif;
+
+:root {
+    font-size: 16px;
+    font-family: $roboto;
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+    --transition-speed: 600ms;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: $open-sans;
+}
+
+button, input{
+    outline: none;
+    border: none;
+}
+
+button:focus, input:focus{
+    outline: none;
+    border: none;
+}
